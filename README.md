@@ -24,6 +24,11 @@ npm run dev
 
 - Open [http://localhost:5173](http://localhost:5173) to view it in the browser
 
+## Resources
+
+- [React Bootstrap](https://react-bootstrap.netlify.app/)
+- [Vite](https://vitejs.dev/)
+
 ## License
 
 - [MIT](LICENSE.md)
