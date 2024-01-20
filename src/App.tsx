@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/Home'
-import About from './pages/About'
+import BootstrapComponents from './pages/bootstrap-components/Index'
+import AccordionPage from './pages/bootstrap-components/AccordionPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -13,10 +14,17 @@ const router = createBrowserRouter([
     element: <Home />,
   },
 
-  // * ABOUT
+  // * BOOTSTRAP COMPONENTS
   {
-    path: '/about',
-    element: <About />,
+    path: '/bootstrap-components',
+    element: <BootstrapComponents />,
+    children: [
+      // * Accordion
+      {
+        path: '/bootstrap-components/accordion',
+        element: <AccordionPage />,
+      },
+    ],
   },
 ])
 

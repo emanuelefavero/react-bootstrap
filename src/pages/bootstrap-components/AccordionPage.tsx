@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
 
-export default function About() {
+export default function AccordionPage() {
   return (
     <>
-      <h1>About</h1>
+      <h1>Accordion Page</h1>
       <Link to='/'>Home</Link>
     </>
   )
