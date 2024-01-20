@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import AccordionPage from './pages/AccordionPage'
 import AlertPage from './pages/AlertPage'
 import BadgesPage from './pages/BadgesPage'
+import BreadcrumbsPage from './pages/BreadcrumbsPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -32,6 +33,12 @@ const router = createBrowserRouter([
   {
     path: '/badges',
     element: <BadgesPage />,
+  },
+
+  // * Breadcrumbs
+  {
+    path: '/breadcrumbs',
+    element: <BreadcrumbsPage />,
   },
 ])
 

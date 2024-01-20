@@ -16,6 +16,9 @@ export default function Home() {
         <li>
           <Link to='/badges'>Badges</Link>
         </li>
+        <li>
+          <Link to='/breadcrumbs'>Breadcrumbs</Link>
+        </li>
       </ul>
     </>
   )
