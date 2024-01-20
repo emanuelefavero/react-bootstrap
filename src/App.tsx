@@ -5,6 +5,7 @@ import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/Home'
 import AccordionPage from './pages/AccordionPage'
+import AlertPage from './pages/AlertPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -18,6 +19,12 @@ const router = createBrowserRouter([
   {
     path: '/accordion',
     element: <AccordionPage />,
+  },
+
+  // * Alert
+  {
+    path: '/alert',
+    element: <AlertPage />,
   },
 ])
 

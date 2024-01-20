@@ -6,7 +6,14 @@ export default function Home() {
       <h1>Home</h1>
 
       <h2>Bootstrap Components</h2>
-      <Link to='/accordion'>Accordion</Link>
+      <ul>
+        <li>
+          <Link to='/accordion'>Accordion</Link>
+        </li>
+        <li>
+          <Link to='/alert'>Alert</Link>
+        </li>
+      </ul>
     </>
   )
 }
