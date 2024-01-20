@@ -4,7 +4,9 @@ export default function Home() {
   return (
     <>
       <h1>Home</h1>
-      <Link to='/bootstrap-components'>Bootstrap Components</Link>
+
+      <h2>Bootstrap Components</h2>
+      <Link to='/accordion'>Accordion</Link>
     </>
   )
 }
