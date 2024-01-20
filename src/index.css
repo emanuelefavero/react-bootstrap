@@ -20,7 +20,16 @@ body {
   /* flex-direction: column; */
   /* text-align: center; */
 
+  padding: 3rem;
+
   /* overflow: hidden; */
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 10rem;
+    max-width: 1000px;
+  }
 }
 
 main {
