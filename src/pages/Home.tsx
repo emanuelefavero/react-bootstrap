@@ -13,6 +13,9 @@ export default function Home() {
         <li>
           <Link to='/alert'>Alert</Link>
         </li>
+        <li>
+          <Link to='/badges'>Badges</Link>
+        </li>
       </ul>
     </>
   )
