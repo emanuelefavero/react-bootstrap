@@ -1,9 +1,26 @@
 import './App.css'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+
+const router = createBrowserRouter([
+  // * HOME
+  {
+    path: '/',
+    element: <Home />,
+  },
+
+  // * ABOUT
+  {
+    path: '/about',
+    element: <About />,
+  },
+])
 
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <RouterProvider router={router}></RouterProvider>
     </>
   )
 }
