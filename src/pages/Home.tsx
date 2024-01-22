@@ -76,6 +76,9 @@ export default function Home() {
         <li>
           <Link to='/tables'>Tables</Link>
         </li>
+        <li>
+          <Link to='/tabs'>Tabs</Link>
+        </li>
       </ul>
     </>
   )

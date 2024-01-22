@@ -27,6 +27,7 @@ import PlaceholdersPage from './pages/PlaceholdersPage'
 import ProgressBarsPage from './pages/ProgressBarsPage'
 import SpinnersPage from './pages/SpinnersPage'
 import TablesPage from './pages/TablesPage'
+import TabsPage from './pages/TabsPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -172,6 +173,12 @@ const router = createBrowserRouter([
   {
     path: '/tables',
     element: <TablesPage />,
+  },
+
+  // * Tables
+  {
+    path: '/tabs',
+    element: <TabsPage />,
   },
 ])
 
