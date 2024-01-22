@@ -67,6 +67,9 @@ export default function Home() {
         <li>
           <Link to='/placeholders'>Placeholders</Link>
         </li>
+        <li>
+          <Link to='/progress-bars'>Progress bars</Link>
+        </li>
       </ul>
     </>
   )
