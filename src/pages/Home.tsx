@@ -22,6 +22,9 @@ export default function Home() {
         <li>
           <Link to='/button-group'>Button group</Link>
         </li>
+        <li>
+          <Link to='/button'>Button</Link>
+        </li>
       </ul>
     </>
   )
