@@ -6,6 +6,7 @@ export default function Home() {
       <h1>Home</h1>
 
       <h2>Bootstrap Components</h2>
+      <br />
       <ul>
         <li>
           <Link to='/accordion'>Accordion</Link>
@@ -78,6 +79,9 @@ export default function Home() {
         </li>
         <li>
           <Link to='/tabs'>Tabs</Link>
+        </li>
+        <li>
+          <Link to='/toasts'>Toasts</Link>
         </li>
       </ul>
     </>

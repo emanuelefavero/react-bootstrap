@@ -28,6 +28,7 @@ import ProgressBarsPage from './pages/ProgressBarsPage'
 import SpinnersPage from './pages/SpinnersPage'
 import TablesPage from './pages/TablesPage'
 import TabsPage from './pages/TabsPage'
+import ToastsPage from './pages/ToastsPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -131,6 +132,12 @@ const router = createBrowserRouter([
   {
     path: '/navs',
     element: <NavsPage />,
+  },
+
+  // * Toasts
+  {
+    path: '/toasts',
+    element: <ToastsPage />,
   },
 
   // * Offcanvas
