@@ -52,6 +52,9 @@ export default function Home() {
         <li>
           <Link to='/navbars'>Navbars</Link>
         </li>
+        <li>
+          <Link to='/navs'>Navs</Link>
+        </li>
       </ul>
     </>
   )

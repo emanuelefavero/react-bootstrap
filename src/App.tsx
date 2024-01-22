@@ -19,6 +19,7 @@ import ImagesPage from './pages/ImagesPage'
 import ListGroupsPage from './pages/ListGroupsPage'
 import ModalsPage from './pages/ModalsPage'
 import NavbarsPage from './pages/NavbarsPage'
+import NavsPage from './pages/NavsPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -116,6 +117,12 @@ const router = createBrowserRouter([
   {
     path: '/navbars',
     element: <NavbarsPage />,
+  },
+
+  // * Navs
+  {
+    path: '/navs',
+    element: <NavsPage />,
   },
 ])
 
