@@ -8,6 +8,7 @@ import AccordionPage from './pages/AccordionPage'
 import AlertPage from './pages/AlertPage'
 import BadgesPage from './pages/BadgesPage'
 import BreadcrumbsPage from './pages/BreadcrumbsPage'
+import ButtonGroupPage from './pages/ButtonGroupPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -39,6 +40,11 @@ const router = createBrowserRouter([
   {
     path: '/breadcrumbs',
     element: <BreadcrumbsPage />,
+  },
+  // * Button group
+  {
+    path: '/button-group',
+    element: <ButtonGroupPage />,
   },
 ])
 

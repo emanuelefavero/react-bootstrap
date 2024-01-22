@@ -19,6 +19,9 @@ export default function Home() {
         <li>
           <Link to='/breadcrumbs'>Breadcrumbs</Link>
         </li>
+        <li>
+          <Link to='/button-group'>Button group</Link>
+        </li>
       </ul>
     </>
   )
