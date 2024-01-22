@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import Carousel from 'react-bootstrap/Carousel'
 
-export default function ButtonPage() {
+export default function CarouselsPage() {
   return (
     <>
       <Link to='/'>Home</Link>

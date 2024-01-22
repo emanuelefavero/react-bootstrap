@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 
-export default function ButtonPage() {
+export default function CardsPage() {
   return (
     <>
       <Link to='/'>Home</Link>

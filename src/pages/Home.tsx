@@ -34,6 +34,9 @@ export default function Home() {
         <li>
           <Link to='/close-button'>Close Button</Link>
         </li>
+        <li>
+          <Link to='/dropdowns'>Dropdowns</Link>
+        </li>
       </ul>
     </>
   )

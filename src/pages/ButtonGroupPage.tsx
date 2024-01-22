@@ -1,7 +1,7 @@
 import { Button, ButtonGroup } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
-export default function BreadcrumbsPage() {
+export default function ButtonGroupPage() {
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     console.log(e.currentTarget.innerText)
   }
