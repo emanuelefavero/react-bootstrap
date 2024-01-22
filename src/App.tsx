@@ -10,6 +10,7 @@ import BadgesPage from './pages/BadgesPage'
 import BreadcrumbsPage from './pages/BreadcrumbsPage'
 import ButtonGroupPage from './pages/ButtonGroupPage'
 import ButtonPage from './pages/ButtonPage'
+import CardsPage from './pages/CardsPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -53,6 +54,12 @@ const router = createBrowserRouter([
   {
     path: '/button',
     element: <ButtonPage />,
+  },
+
+  // * Cards
+  {
+    path: '/cards',
+    element: <CardsPage />,
   },
 ])
 
