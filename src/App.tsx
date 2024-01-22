@@ -18,6 +18,7 @@ import FiguresPage from './pages/FiguresPage'
 import ImagesPage from './pages/ImagesPage'
 import ListGroupsPage from './pages/ListGroupsPage'
 import ModalsPage from './pages/ModalsPage'
+import NavbarsPage from './pages/NavbarsPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -109,6 +110,12 @@ const router = createBrowserRouter([
   {
     path: '/modals',
     element: <ModalsPage />,
+  },
+
+  // * Navbars
+  {
+    path: '/navbars',
+    element: <NavbarsPage />,
   },
 ])
 

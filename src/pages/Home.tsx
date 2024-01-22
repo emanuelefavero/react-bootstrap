@@ -49,6 +49,9 @@ export default function Home() {
         <li>
           <Link to='/modals'>Modals</Link>
         </li>
+        <li>
+          <Link to='/navbars'>Navbars</Link>
+        </li>
       </ul>
     </>
   )
