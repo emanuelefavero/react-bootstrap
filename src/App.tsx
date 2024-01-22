@@ -22,6 +22,7 @@ import NavbarsPage from './pages/NavbarsPage'
 import NavsPage from './pages/NavsPage'
 import OffcanvasPage from './pages/OffcanvasPage'
 import OverlayPage from './pages/OverlayPage'
+import PaginationPage from './pages/PaginationPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -137,6 +138,12 @@ const router = createBrowserRouter([
   {
     path: '/overlay',
     element: <OverlayPage />,
+  },
+
+  // * Pagination
+  {
+    path: '/pagination',
+    element: <PaginationPage />,
   },
 ])
 

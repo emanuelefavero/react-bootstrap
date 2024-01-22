@@ -61,6 +61,9 @@ export default function Home() {
         <li>
           <Link to='/overlay'>Overlay</Link>
         </li>
+        <li>
+          <Link to='/pagination'>Pagination</Link>
+        </li>
       </ul>
     </>
   )
