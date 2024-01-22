@@ -73,6 +73,9 @@ export default function Home() {
         <li>
           <Link to='/spinners'>Spinners</Link>
         </li>
+        <li>
+          <Link to='/tables'>Tables</Link>
+        </li>
       </ul>
     </>
   )

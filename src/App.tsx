@@ -26,6 +26,7 @@ import PaginationPage from './pages/PaginationPage'
 import PlaceholdersPage from './pages/PlaceholdersPage'
 import ProgressBarsPage from './pages/ProgressBarsPage'
 import SpinnersPage from './pages/SpinnersPage'
+import TablesPage from './pages/TablesPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -165,6 +166,12 @@ const router = createBrowserRouter([
   {
     path: '/spinners',
     element: <SpinnersPage />,
+  },
+
+  // * Tables
+  {
+    path: '/tables',
+    element: <TablesPage />,
   },
 ])
 
