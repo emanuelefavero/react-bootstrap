@@ -11,6 +11,7 @@ import BreadcrumbsPage from './pages/BreadcrumbsPage'
 import ButtonGroupPage from './pages/ButtonGroupPage'
 import ButtonPage from './pages/ButtonPage'
 import CardsPage from './pages/CardsPage'
+import CarouselsPage from './pages/CarouselsPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -60,6 +61,12 @@ const router = createBrowserRouter([
   {
     path: '/cards',
     element: <CardsPage />,
+  },
+
+  // * Carousels
+  {
+    path: '/carousels',
+    element: <CarouselsPage />,
   },
 ])
 

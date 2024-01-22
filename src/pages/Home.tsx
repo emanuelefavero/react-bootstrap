@@ -28,6 +28,9 @@ export default function Home() {
         <li>
           <Link to='/cards'>Cards</Link>
         </li>
+        <li>
+          <Link to='/carousels'>Carousels</Link>
+        </li>
       </ul>
     </>
   )
