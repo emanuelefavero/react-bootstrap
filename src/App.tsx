@@ -17,6 +17,7 @@ import DropdownsPage from './pages/DropdownsPage'
 import FiguresPage from './pages/FiguresPage'
 import ImagesPage from './pages/ImagesPage'
 import ListGroupsPage from './pages/ListGroupsPage'
+import ModalsPage from './pages/ModalsPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -102,6 +103,12 @@ const router = createBrowserRouter([
   {
     path: '/list-groups',
     element: <ListGroupsPage />,
+  },
+
+  // * Modals
+  {
+    path: '/modals',
+    element: <ModalsPage />,
   },
 ])
 

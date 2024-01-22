@@ -46,6 +46,9 @@ export default function Home() {
         <li>
           <Link to='/list-groups'>List Groups</Link>
         </li>
+        <li>
+          <Link to='/modals'>Modals</Link>
+        </li>
       </ul>
     </>
   )
