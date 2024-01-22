@@ -31,6 +31,9 @@ export default function Home() {
         <li>
           <Link to='/carousels'>Carousels</Link>
         </li>
+        <li>
+          <Link to='/close-button'>Close Button</Link>
+        </li>
       </ul>
     </>
   )
