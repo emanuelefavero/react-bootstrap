@@ -16,6 +16,7 @@ import CloseButtonPage from './pages/CloseButtonPage'
 import DropdownsPage from './pages/DropdownsPage'
 import FiguresPage from './pages/FiguresPage'
 import ImagesPage from './pages/ImagesPage'
+import ListGroupsPage from './pages/ListGroupsPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -95,6 +96,12 @@ const router = createBrowserRouter([
   {
     path: '/images',
     element: <ImagesPage />,
+  },
+
+  // * List Groups
+  {
+    path: '/list-groups',
+    element: <ListGroupsPage />,
   },
 ])
 

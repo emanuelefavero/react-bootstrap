@@ -43,6 +43,9 @@ export default function Home() {
         <li>
           <Link to='/images'>Images</Link>
         </li>
+        <li>
+          <Link to='/list-groups'>List Groups</Link>
+        </li>
       </ul>
     </>
   )
