@@ -40,6 +40,9 @@ export default function Home() {
         <li>
           <Link to='/figures'>Figures</Link>
         </li>
+        <li>
+          <Link to='/images'>Images</Link>
+        </li>
       </ul>
     </>
   )
