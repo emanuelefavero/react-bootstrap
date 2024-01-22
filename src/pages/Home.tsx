@@ -55,6 +55,9 @@ export default function Home() {
         <li>
           <Link to='/navs'>Navs</Link>
         </li>
+        <li>
+          <Link to='/offcanvas'>Offcanvas</Link>
+        </li>
       </ul>
     </>
   )

@@ -20,6 +20,7 @@ import ListGroupsPage from './pages/ListGroupsPage'
 import ModalsPage from './pages/ModalsPage'
 import NavbarsPage from './pages/NavbarsPage'
 import NavsPage from './pages/NavsPage'
+import OffcanvasPage from './pages/OffcanvasPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -123,6 +124,12 @@ const router = createBrowserRouter([
   {
     path: '/navs',
     element: <NavsPage />,
+  },
+
+  // * Offcanvas
+  {
+    path: '/offcanvas',
+    element: <OffcanvasPage />,
   },
 ])
 
