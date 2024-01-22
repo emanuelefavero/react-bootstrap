@@ -37,6 +37,9 @@ export default function Home() {
         <li>
           <Link to='/dropdowns'>Dropdowns</Link>
         </li>
+        <li>
+          <Link to='/figures'>Figures</Link>
+        </li>
       </ul>
     </>
   )

@@ -14,6 +14,7 @@ import CardsPage from './pages/CardsPage'
 import CarouselsPage from './pages/CarouselsPage'
 import CloseButtonPage from './pages/CloseButtonPage'
 import DropdownsPage from './pages/DropdownsPage'
+import FiguresPage from './pages/FiguresPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -81,6 +82,12 @@ const router = createBrowserRouter([
   {
     path: '/dropdowns',
     element: <DropdownsPage />,
+  },
+
+  // * Figures
+  {
+    path: '/figures',
+    element: <FiguresPage />,
   },
 ])
 
