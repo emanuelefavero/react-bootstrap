@@ -25,6 +25,7 @@ import OverlayPage from './pages/OverlayPage'
 import PaginationPage from './pages/PaginationPage'
 import PlaceholdersPage from './pages/PlaceholdersPage'
 import ProgressBarsPage from './pages/ProgressBarsPage'
+import SpinnersPage from './pages/SpinnersPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -158,6 +159,12 @@ const router = createBrowserRouter([
   {
     path: '/progress-bars',
     element: <ProgressBarsPage />,
+  },
+
+  // * Spinners
+  {
+    path: '/spinners',
+    element: <SpinnersPage />,
   },
 ])
 

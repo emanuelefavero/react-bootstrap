@@ -70,6 +70,9 @@ export default function Home() {
         <li>
           <Link to='/progress-bars'>Progress bars</Link>
         </li>
+        <li>
+          <Link to='/spinners'>Spinners</Link>
+        </li>
       </ul>
     </>
   )
