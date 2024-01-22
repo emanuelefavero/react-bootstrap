@@ -64,6 +64,9 @@ export default function Home() {
         <li>
           <Link to='/pagination'>Pagination</Link>
         </li>
+        <li>
+          <Link to='/placeholders'>Placeholders</Link>
+        </li>
       </ul>
     </>
   )
