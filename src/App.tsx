@@ -21,6 +21,7 @@ import ModalsPage from './pages/ModalsPage'
 import NavbarsPage from './pages/NavbarsPage'
 import NavsPage from './pages/NavsPage'
 import OffcanvasPage from './pages/OffcanvasPage'
+import OverlayPage from './pages/OverlayPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -130,6 +131,12 @@ const router = createBrowserRouter([
   {
     path: '/offcanvas',
     element: <OffcanvasPage />,
+  },
+
+  // * Overlay
+  {
+    path: '/overlay',
+    element: <OverlayPage />,
   },
 ])
 

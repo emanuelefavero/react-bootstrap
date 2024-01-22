@@ -58,6 +58,9 @@ export default function Home() {
         <li>
           <Link to='/offcanvas'>Offcanvas</Link>
         </li>
+        <li>
+          <Link to='/overlay'>Overlay</Link>
+        </li>
       </ul>
     </>
   )
