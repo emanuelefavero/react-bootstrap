@@ -45,6 +45,12 @@ export default function UtilitiesPage() {
       </p>
       <div className='float-start bg-info text-white'>Float Start</div>
       <div className='float-end bg-info text-white'>Float End</div>
+
+      <h2 className='mt-3'>Interactions</h2>
+      <p className='user-select-none'>This paragraph will not be selectable</p>
+      <button className='user-select-none pe-none'>
+        This button cannot be clicked
+      </button>
     </>
   )
 }
