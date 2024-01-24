@@ -51,6 +51,9 @@ export default function UtilitiesPage() {
       <button className='user-select-none pe-none'>
         This button cannot be clicked
       </button>
+
+      <h2 className='mt-3'>Opacity</h2>
+      <div className='w-100 p-4 bg-primary opacity-50'></div>
     </>
   )
 }
