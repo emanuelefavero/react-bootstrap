@@ -118,6 +118,17 @@ export default function UtilitiesPage() {
       <div className='shadow-sm p-3 mb-5 bg-white rounded'>Small Shadow</div>
       <div className='shadow-lg p-3 mb-5 bg-white rounded'>Large Shadow</div>
       <div className='shadow-none p-3 mb-5 bg-white rounded'>No Shadow</div>
+
+      <h2 className='mt-3'>Sizing</h2>
+      {
+        // TIP: You can also set the height of an element using the 'h-100' class and more
+        // @see https://getbootstrap.com/docs/5.1/utilities/sizing/
+      }
+      <div className='w-25 bg-warning'>Width 25%</div>
+      <div className='w-50 bg-warning'>Width 50%</div>
+      <div className='w-75 bg-warning'>Width 75%</div>
+      <div className='w-100 bg-warning'>Width 100%</div>
+      <div className='w-auto bg-warning'>Width auto</div>
     </>
   )
 }
