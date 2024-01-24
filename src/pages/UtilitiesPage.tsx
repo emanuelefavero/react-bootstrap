@@ -32,6 +32,12 @@ export default function UtilitiesPage() {
       <div className='d-block bg-warning'>Block</div>
       <div className='d-inline bg-warning'>Inline</div>
       <div className='d-none'>Hide this element</div>
+
+      <h2 className='mt-3'>Flex</h2>
+      <div className='d-flex flex-column justify-content-center align-items-center bg-danger text-white'>
+        <div>1</div>
+        <div>2</div>
+      </div>
     </>
   )
 }
