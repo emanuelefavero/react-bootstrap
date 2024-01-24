@@ -93,11 +93,25 @@ export default function UtilitiesPage() {
         voluptatem. Quisquam, quibusdam.
       </div>
 
-      <h2 className='mt-3'>Position</h2>
-      <div className='position-relative bg-primary text-white'>Relative</div>
-      <div className='position-absolute bg-primary text-white'>Absolute</div>
-      <div className='position-fixed bg-primary text-white'>Fixed</div>
-      <div className='position-sticky bg-primary text-white'>Sticky</div>
+      <h2 className='mt-4'>Position</h2>
+      <div
+        className='position-relative bg-light p-3'
+        style={{ minHeight: '200px' }}
+      >
+        Relative
+        <div className='position-absolute top-0 start-0 bg-secondary text-white p-2'>
+          Absolute Top Left
+        </div>
+        <div className='position-absolute top-0 end-0 bg-secondary text-white p-2'>
+          Absolute Top Right
+        </div>
+        <div className='position-absolute bottom-0 start-0 bg-secondary text-white p-2'>
+          Absolute Bottom Left
+        </div>
+        <div className='position-absolute bottom-0 end-0 bg-secondary text-white p-2'>
+          Absolute Bottom Right
+        </div>
+      </div>
     </>
   )
 }
