@@ -30,6 +30,7 @@ import SpinnersPage from './pages/SpinnersPage'
 import TablesPage from './pages/TablesPage'
 import TabsPage from './pages/TabsPage'
 import ToastsPage from './pages/ToastsPage'
+import ColorModesPage from './pages/ColorModesPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -43,6 +44,12 @@ const router = createBrowserRouter([
   {
     path: '/custom-variants',
     element: <CustomVariantsPage />,
+  },
+
+  // * Color Modes
+  {
+    path: '/color-modes',
+    element: <ColorModesPage />,
   },
 
   // * BOOTSTRAP COMPONENTS

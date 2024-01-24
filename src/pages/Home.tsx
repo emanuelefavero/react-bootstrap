@@ -10,6 +10,9 @@ export default function Home() {
         <li>
           <Link to='/custom-variants'>Custom Variants</Link>
         </li>
+        <li>
+          <Link to='/color-modes'>Color Modes</Link>
+        </li>
       </ul>
 
       <h2>Bootstrap Components</h2>
