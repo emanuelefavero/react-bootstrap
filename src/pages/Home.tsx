@@ -5,6 +5,13 @@ export default function Home() {
     <>
       <h1>Home</h1>
 
+      <h2>Utilities</h2>
+      <ul>
+        <li>
+          <Link to='/utilities'>Utilities</Link>
+        </li>
+      </ul>
+
       <h2>Theming</h2>
       <ul>
         <li>

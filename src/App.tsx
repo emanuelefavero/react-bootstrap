@@ -1,6 +1,7 @@
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/Home'
+import UtilitiesPage from './pages/UtilitiesPage'
 import CustomVariantsPage from './pages/CustomVariantsPage'
 import ServerSideRenderingPage from './pages/ServerSideRenderingPage'
 import AccordionPage from './pages/AccordionPage'
@@ -38,6 +39,13 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Home />,
+  },
+
+  // * UTILITIES
+  // * Utilities
+  {
+    path: '/utilities',
+    element: <UtilitiesPage />,
   },
 
   // * THEMING
