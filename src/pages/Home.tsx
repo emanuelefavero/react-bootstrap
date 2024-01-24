@@ -27,6 +27,9 @@ export default function Home() {
         <li>
           <Link to='/grid'>Grid</Link>
         </li>
+        <li>
+          <Link to='/stacks'>Stacks</Link>
+        </li>
       </ul>
 
       <h2>Bootstrap Components</h2>

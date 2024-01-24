@@ -33,6 +33,7 @@ import TabsPage from './pages/TabsPage'
 import ToastsPage from './pages/ToastsPage'
 import ColorModesPage from './pages/ColorModesPage'
 import GridPage from './pages/GridPage'
+import StacksPage from './pages/StacksPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -66,6 +67,11 @@ const router = createBrowserRouter([
   {
     path: '/grid',
     element: <GridPage />,
+  },
+  // * Stacks
+  {
+    path: '/stacks',
+    element: <StacksPage />,
   },
 
   // * BOOTSTRAP COMPONENTS
