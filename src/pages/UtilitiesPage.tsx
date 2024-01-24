@@ -112,6 +112,12 @@ export default function UtilitiesPage() {
           Absolute Bottom Right
         </div>
       </div>
+
+      <h2 className='mt-3'>Shadows</h2>
+      <div className='shadow p-3 mb-5 bg-white rounded'>Shadow</div>
+      <div className='shadow-sm p-3 mb-5 bg-white rounded'>Small Shadow</div>
+      <div className='shadow-lg p-3 mb-5 bg-white rounded'>Large Shadow</div>
+      <div className='shadow-none p-3 mb-5 bg-white rounded'>No Shadow</div>
     </>
   )
 }
