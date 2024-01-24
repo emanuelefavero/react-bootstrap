@@ -24,6 +24,14 @@ export default function UtilitiesPage() {
       <div className='border border-2 border-primary rounded-start px-3 py-1 mb-2'>
         Border
       </div>
+
+      <h2 className='mt-3'>Text Colors</h2>
+      <div className='text-primary'>Text</div>
+
+      <h2 className='mt-3'>Display</h2>
+      <div className='d-block bg-warning'>Block</div>
+      <div className='d-inline bg-warning'>Inline</div>
+      <div className='d-none'>Hide this element</div>
     </>
   )
 }
