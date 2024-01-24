@@ -92,6 +92,12 @@ export default function UtilitiesPage() {
         voluptates. Voluptatem, quibusdam. Quasi, quos. Quibusdam, quas
         voluptatem. Quisquam, quibusdam.
       </div>
+
+      <h2 className='mt-3'>Position</h2>
+      <div className='position-relative bg-primary text-white'>Relative</div>
+      <div className='position-absolute bg-primary text-white'>Absolute</div>
+      <div className='position-fixed bg-primary text-white'>Fixed</div>
+      <div className='position-sticky bg-primary text-white'>Sticky</div>
     </>
   )
 }
