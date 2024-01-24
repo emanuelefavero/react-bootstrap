@@ -151,6 +151,10 @@ export default function UtilitiesPage() {
       <span className='align-bottom'>bottom</span>
       <span className='align-text-top'>text-top</span>
       <span className='align-text-bottom'>text-bottom</span>
+
+      <h2 className='mt-3'>Visibility</h2>
+      <div className='visible'>Visible</div>
+      <div className='invisible'>Invisible</div>
     </>
   )
 }
