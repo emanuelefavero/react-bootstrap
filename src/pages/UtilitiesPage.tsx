@@ -143,6 +143,14 @@ export default function UtilitiesPage() {
       <div className='mx-4 bg-secondary text-white'>Margin X</div>
       <div className='py-4 bg-secondary text-white'>Padding Y</div>
       <div className='my-4 bg-secondary text-white'>Margin Y</div>
+
+      <h2 className='mt-3'>Vertical Align</h2>
+      <span className='align-baseline'>baseline</span>
+      <span className='align-top'>top</span>
+      <span className='align-middle'>middle</span>
+      <span className='align-bottom'>bottom</span>
+      <span className='align-text-top'>text-top</span>
+      <span className='align-text-bottom'>text-bottom</span>
     </>
   )
 }
