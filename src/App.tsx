@@ -32,6 +32,7 @@ import TablesPage from './pages/TablesPage'
 import TabsPage from './pages/TabsPage'
 import ToastsPage from './pages/ToastsPage'
 import ColorModesPage from './pages/ColorModesPage'
+import GridPage from './pages/GridPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -58,6 +59,13 @@ const router = createBrowserRouter([
   {
     path: '/server-side-rendering',
     element: <ServerSideRenderingPage />,
+  },
+
+  // * LAYOUT
+  // * Grid
+  {
+    path: '/grid',
+    element: <GridPage />,
   },
 
   // * BOOTSTRAP COMPONENTS

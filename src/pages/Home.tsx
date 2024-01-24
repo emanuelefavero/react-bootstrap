@@ -22,6 +22,13 @@ export default function Home() {
         </li>
       </ul>
 
+      <h2>Layout</h2>
+      <ul>
+        <li>
+          <Link to='/grid'>Grid</Link>
+        </li>
+      </ul>
+
       <h2>Bootstrap Components</h2>
       <br />
       <ul>
