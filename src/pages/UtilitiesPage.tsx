@@ -54,6 +54,44 @@ export default function UtilitiesPage() {
 
       <h2 className='mt-3'>Opacity</h2>
       <div className='w-100 p-4 bg-primary opacity-50'></div>
+
+      <h2 className='mt-3'>Overflow</h2>
+      <code>overflow-auto</code>
+      <div
+        className='overflow-auto bg-dark text-success'
+        style={{ height: '64px' }}
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quibusdam
+        voluptates. Voluptatem, quibusdam. Quasi, quos. Quibusdam, quas
+        voluptatem. Quisquam, quibusdam.
+      </div>
+      <code>overflow-hidden</code>
+      <div
+        className='overflow-hidden bg-dark text-success'
+        style={{ height: '64px' }}
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quibusdam
+        voluptates. Voluptatem, quibusdam. Quasi, quos. Quibusdam, quas
+        voluptatem. Quisquam, quibusdam.
+      </div>
+      <code>overflow-scroll</code>
+      <div
+        className='overflow-scroll bg-dark text-success'
+        style={{ height: '64px' }}
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quibusdam
+        voluptates. Voluptatem, quibusdam. Quasi, quos. Quibusdam, quas
+        voluptatem. Quisquam, quibusdam.
+      </div>
+      <code>overflow-visible</code>
+      <div
+        className='overflow-visible bg-dark text-success'
+        style={{ height: '64px' }}
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quibusdam
+        voluptates. Voluptatem, quibusdam. Quasi, quos. Quibusdam, quas
+        voluptatem. Quisquam, quibusdam.
+      </div>
     </>
   )
 }
