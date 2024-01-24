@@ -5,6 +5,7 @@ import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/Home'
 import CustomVariantsPage from './pages/CustomVariantsPage'
+import ServerSideRenderingPage from './pages/ServerSideRenderingPage'
 import AccordionPage from './pages/AccordionPage'
 import AlertPage from './pages/AlertPage'
 import BadgesPage from './pages/BadgesPage'
@@ -50,6 +51,13 @@ const router = createBrowserRouter([
   {
     path: '/color-modes',
     element: <ColorModesPage />,
+  },
+
+  // * SERVER-SIDE RENDERING
+  // * Server-side Rendering
+  {
+    path: '/server-side-rendering',
+    element: <ServerSideRenderingPage />,
   },
 
   // * BOOTSTRAP COMPONENTS

@@ -15,6 +15,13 @@ export default function Home() {
         </li>
       </ul>
 
+      <h2>Server-side Rendering</h2>
+      <ul>
+        <li>
+          <Link to='/server-side-rendering'>Server-side Rendering</Link>
+        </li>
+      </ul>
+
       <h2>Bootstrap Components</h2>
       <br />
       <ul>
