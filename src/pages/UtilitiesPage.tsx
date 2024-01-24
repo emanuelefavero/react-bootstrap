@@ -129,6 +129,20 @@ export default function UtilitiesPage() {
       <div className='w-75 bg-warning'>Width 75%</div>
       <div className='w-100 bg-warning'>Width 100%</div>
       <div className='w-auto bg-warning'>Width auto</div>
+
+      <h2 className='mt-3'>Spacing</h2>
+      {
+        // TIP: You can set from 0 to 5 for the spacing. Also auto.
+        // TIP: You can also set negative spacing using the 'm-n1' class and more
+      }
+      <div className='p-3 bg-secondary text-white'>Padding</div>
+      <div className='m-3 bg-secondary text-white'>Margin</div>
+      <div className='pb-4 bg-secondary text-white'>Padding Bottom</div>
+      <div className='mt-4 bg-secondary text-white'>Margin Top</div>
+      <div className='px-4 bg-secondary text-white'>Padding X</div>
+      <div className='mx-4 bg-secondary text-white'>Margin X</div>
+      <div className='py-4 bg-secondary text-white'>Padding Y</div>
+      <div className='my-4 bg-secondary text-white'>Margin Y</div>
     </>
   )
 }
