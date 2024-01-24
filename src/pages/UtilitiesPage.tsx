@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import Button from 'react-bootstrap/Button'
 
 export default function UtilitiesPage() {
   return (
@@ -38,6 +37,14 @@ export default function UtilitiesPage() {
         <div>1</div>
         <div>2</div>
       </div>
+
+      <h2 className='mt-3'>Float</h2>
+      <p>
+        These utility classes float an element to the left or right, or disable
+        floating
+      </p>
+      <div className='float-start bg-info text-white'>Float Start</div>
+      <div className='float-end bg-info text-white'>Float End</div>
     </>
   )
 }
