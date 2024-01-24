@@ -5,6 +5,13 @@ export default function Home() {
     <>
       <h1>Home</h1>
 
+      <h2>Theming</h2>
+      <ul>
+        <li>
+          <Link to='/custom-variants'>Custom Variants</Link>
+        </li>
+      </ul>
+
       <h2>Bootstrap Components</h2>
       <br />
       <ul>

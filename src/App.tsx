@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/Home'
+import CustomVariantsPage from './pages/CustomVariantsPage'
 import AccordionPage from './pages/AccordionPage'
 import AlertPage from './pages/AlertPage'
 import BadgesPage from './pages/BadgesPage'
@@ -35,6 +36,13 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Home />,
+  },
+
+  // * THEMING
+  // * Custom Variants
+  {
+    path: '/custom-variants',
+    element: <CustomVariantsPage />,
   },
 
   // * BOOTSTRAP COMPONENTS
