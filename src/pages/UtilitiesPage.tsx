@@ -9,6 +9,7 @@ export default function UtilitiesPage() {
         Bootstrap utilities are a set of utility classes that can be used to
         style content
       </p>
+
       <h2>Background</h2>
       <div className='bg-success bg-gradient text-white p-2'>Background</div>
       <h2 className='mt-3'>Border</h2>

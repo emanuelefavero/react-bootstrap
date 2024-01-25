@@ -4,6 +4,10 @@ import Home from './pages/Home'
 import UtilitiesPage from './pages/UtilitiesPage'
 import CustomVariantsPage from './pages/CustomVariantsPage'
 import ServerSideRenderingPage from './pages/ServerSideRenderingPage'
+import GridPage from './pages/GridPage'
+import StacksPage from './pages/StacksPage'
+import FormsPage from './pages/FormsPage'
+import TransitionsPage from './pages/TransitionsPage'
 import AccordionPage from './pages/AccordionPage'
 import AlertPage from './pages/AlertPage'
 import BadgesPage from './pages/BadgesPage'
@@ -30,9 +34,6 @@ import TablesPage from './pages/TablesPage'
 import TabsPage from './pages/TabsPage'
 import ToastsPage from './pages/ToastsPage'
 import ColorModesPage from './pages/ColorModesPage'
-import GridPage from './pages/GridPage'
-import StacksPage from './pages/StacksPage'
-import FormsPage from './pages/FormsPage'
 
 const router = createBrowserRouter([
   // * HOME
@@ -85,6 +86,12 @@ const router = createBrowserRouter([
   {
     path: '/forms',
     element: <FormsPage />,
+  },
+
+  // * TRANSITIONS
+  {
+    path: '/transitions',
+    element: <TransitionsPage />,
   },
 
   // * BOOTSTRAP COMPONENTS

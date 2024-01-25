@@ -46,6 +46,13 @@ export default function Home() {
         </li>
       </ul>
 
+      <h2>Transitions</h2>
+      <ul>
+        <li>
+          <Link to='/transitions'>Transitions</Link>
+        </li>
+      </ul>
+
       <h2>Bootstrap Components</h2>
       <br />
       <ul>
